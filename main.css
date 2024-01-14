@@ -102,7 +102,7 @@ section#intro {
     display: flex;
     padding: 64px 16px;
     font-family: Mont;
-    
+
 }
 
 section#intro>div#introP {
@@ -119,13 +119,16 @@ section#intro>div#introP>p {
     font-family: MontIt;
 
 }
+
 @media screen and (max-width:1000px) {
     section#intro {
         flex-direction: column;
     }
 
-    
+
 }
+
+
 
 /* Intro-end */
 
@@ -142,23 +145,27 @@ div#plan3 {
     padding: 40px;
 }
 
-div#plan1 > i{
-    font-size: 64px;
-}
-div#plan2 > i{
-    font-size: 64px;
-}
-div#plan3 > i{
+div#plan1>i {
     font-size: 64px;
 }
 
-div#plan1 > p{
+div#plan2>i {
+    font-size: 64px;
+}
+
+div#plan3>i {
+    font-size: 64px;
+}
+
+div#plan1>p {
     opacity: 0.6;
 }
-div#plan2 > p{
+
+div#plan2>p {
     opacity: 0.6;
 }
-div#plan3 > p{
+
+div#plan3>p {
     opacity: 0.6;
 }
 
@@ -167,4 +174,33 @@ div#plan3 > p{
         flex-direction: column;
     }
 
+}
+
+/* plans-end */
+
+/* service-start */
+section#services {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    gap: 32px;
+}
+
+div#servicesH1 {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 24px;
+
+}
+
+div#services1 {
+    width: 150px;
+}
+
+div#services2 {
+    width: 150px;
+}
+
+div#services3 {
+    width: 150px;
 }
