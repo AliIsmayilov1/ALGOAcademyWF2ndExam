@@ -2,10 +2,12 @@
     font-family: Mont;
     src: url(Montserrat-VariableFont_wght.ttf);
 }
+
 @font-face {
-    font-family: MontIt ;
+    font-family: MontIt;
     src: url(Montserrat-Italic-VariableFont_wght.ttf);
 }
+
 body {
     margin: 0px;
 }
@@ -40,6 +42,7 @@ header>div#headnav>a {
     padding: 8px;
 
 }
+
 header>div#headnav>a:hover {
     color: #14bf98;
 }
@@ -70,7 +73,7 @@ section#Business>div#BusinessP {
     position: absolute;
     color: white;
     width: 500px;
-    
+
 }
 
 section#Business>div#BusinessP>h1 {
@@ -90,27 +93,64 @@ section#Business>div#BusinessButton>a {
     text-align: center;
 
 }
+
 /* Business-end */
 
 /* Intro-start */
-section#intro{
+section#intro {
     background-color: aliceblue;
     display: flex;
     padding: 64px 16px;
     font-family: Mont;
+    gap: 90px;
 }
-section#intro > div#introP{
+
+section#intro>div#introP {
     padding: 16px;
 }
-section#intro > div#introImg{
+
+section#intro>div#introImg {
     padding: 8px;
     opacity: 0.8;
 }
-section#intro > div#introP > p{
+
+section#intro>div#introP>p {
     opacity: 0.8;
     font-family: MontIt;
 
 }
 
+/* Intro-end */
 
+/* Plans-start */
+section#plans {
+    display: flex;
+    background-color: aliceblue;
+    gap: 64px;
+}
 
+section#plans>div#plan1,
+div#plan2,
+div#plan3 {
+    padding: 40px;
+}
+
+div#plan1 > i{
+    font-size: 64px;
+}
+div#plan2 > i{
+    font-size: 64px;
+}
+div#plan3 > i{
+    font-size: 64px;
+}
+
+div#plan1 > p{
+    opacity: 0.6;
+}
+div#plan2 > p{
+    opacity: 0.6;
+}
+div#plan3 > p{
+    opacity: 0.6;
+}
