@@ -102,7 +102,7 @@ section#intro {
     display: flex;
     padding: 64px 16px;
     font-family: Mont;
-    gap: 90px;
+    
 }
 
 section#intro>div#introP {
@@ -119,6 +119,13 @@ section#intro>div#introP>p {
     font-family: MontIt;
 
 }
+@media screen and (max-width:1000px) {
+    section#intro {
+        flex-direction: column;
+    }
+
+    
+}
 
 /* Intro-end */
 
@@ -126,7 +133,7 @@ section#intro>div#introP>p {
 section#plans {
     display: flex;
     background-color: aliceblue;
-    gap: 64px;
+    /* gap: 64px; */
 }
 
 section#plans>div#plan1,
@@ -153,4 +160,11 @@ div#plan2 > p{
 }
 div#plan3 > p{
     opacity: 0.6;
+}
+
+@media screen and (max-width:1000px) {
+    section#plans {
+        flex-direction: column;
+    }
+
 }
