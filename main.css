@@ -168,7 +168,7 @@ section#intro>div#introP>p {
 section#plans {
     display: flex;
     background-color: aliceblue;
-    /* gap: 64px; */
+    font-family: Mont;
 }
 
 section#plans>div#plan1,
@@ -207,6 +207,15 @@ div#plan3>p {
     }
 
 }
+
+section#plans div#icon{
+    height: 96px;
+    width: 96px;
+}
+section#plans div#icon > i{
+    font-size: 32px;
+}
+
 
 /* plans-end */
 
