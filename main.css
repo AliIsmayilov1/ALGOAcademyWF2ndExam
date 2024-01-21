@@ -7,6 +7,10 @@
     font-family: MontIt;
     src: url(Montserrat-Italic-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: MontBold;
+    src: url(static/Montserrat-Bold.ttf);
+}
 
 body {
     margin: 0px;
@@ -208,11 +212,12 @@ div#plan3>p {
 
 }
 
-section#plans div#icon{
+section#plans div#icon {
     height: 96px;
     width: 96px;
 }
-section#plans div#icon > i{
+
+section#plans div#icon>i {
     font-size: 32px;
 }
 
@@ -221,27 +226,51 @@ section#plans div#icon > i{
 
 /* service-start */
 section#services {
-    display: flex;
     background-color: aliceblue;
-    justify-content: center;
-    gap: 32px;
+    padding-top: 96px;
+    width: 100%;
+    font-family: Mont
 }
 
-div#servicesH1 {
-    background-color: aliceblue;
+section#services>div#top>h2 {
     text-align: center;
-    padding: 24px;
-
+    margin-bottom: 96px;
 }
 
-div#services1 {
-    width: 150px;
+section#services>div#top,
+div#main {
+    margin: 0px 65px;
 }
 
-div#services2 {
-    width: 150px;
+
+section#services>div#main {
+    display: flex;
 }
 
-div#services3 {
-    width: 150px;
+section#services>div#main>div#card>div#cardMain>h3 {
+    text-align: center;
+}
+section#services>div#main>div#card>div#cardMain {
+    padding: 32px;
+    border: 1px solid #ebe8e8;
+}
+section#services>div#main>div#card>div#cardMain>p#price {
+text-align: center;
+font-family: MontBold;
+}
+
+section#services>div#main>div#card>div#cardMain>ul  {
+    list-style-type: square;
+    lis
+}
+
+
+section#services>div#main>div#card {
+    padding: 0px 32px;
+}
+
+
+section#services>div#main>div#card>div#cardImg>img {
+    width: 100%;
+    height: auto;
 }
