@@ -51,13 +51,14 @@ header>div#headP:hover {
     cursor: pointer;
 }
 
-div#icon{
+div#icon {
     height: 26px;
     width: 26px;
     position: relative;
     margin-left: 8px;
 }
-div#icon > i{
+
+div#icon>i {
     position: absolute;
     color: white;
     top: 50%;
@@ -66,10 +67,11 @@ div#icon > i{
     font-size: 14px;
 }
 
-header > div#headnav{
+header>div#headnav {
     display: flex;
     align-items: center;
 }
+
 /* Header-end */
 
 /* Business-start */
@@ -93,7 +95,7 @@ section#Business>div#BusinessP {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    
+    font-family: Mont;
 }
 
 section#Business>div#BusinessP>h1 {
@@ -102,12 +104,12 @@ section#Business>div#BusinessP>h1 {
 }
 
 section#Business>div#BusinessP>a {
-
+    display: inline-block;
     text-decoration: none;
     background-color: #14bf98;
-    padding: 12px 20px;
+    padding: 20px;
     color: white;
-    border-radius: 8px ;
+    border-radius: 8px;
     width: 100px;
     text-align: center;
 
@@ -126,12 +128,23 @@ section#intro {
 
 section#intro>div#introP {
     padding: 16px;
+    flex: 1;
 }
 
 section#intro>div#introImg {
-    padding: 8px;
-    opacity: 0.8;
+    overflow: hidden;
+    flex: 1;
 }
+
+section#intro>div#introImg img {
+    width: 100%;
+}
+
+section#intro>div#introImg img:hover {
+    transform: scale(1.15);
+}
+
+
 
 section#intro>div#introP>p {
     opacity: 0.8;
