@@ -51,6 +51,11 @@ header>div#headP:hover {
     cursor: pointer;
 }
 
+div#icon{
+    height: 26px;
+    width: 26px;
+    position: relative;
+}
 
 /* Header-end */
 
@@ -72,24 +77,25 @@ section#Business>div#BusinessP {
     text-align: center;
     position: absolute;
     color: white;
-    width: 500px;
-
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    
 }
 
 section#Business>div#BusinessP>h1 {
     font-size: 64px;
+    margin: 32px 0px;
 }
 
-section#Business>div#BusinessButton>a {
-    position: absolute;
+section#Business>div#BusinessP>a {
+
     text-decoration: none;
     background-color: #14bf98;
-    padding: 24px;
+    padding: 12px 20px;
     color: white;
-    border-radius: 8px;
-    top: 410px;
+    border-radius: 8px ;
     width: 100px;
-    left: 50%;
     text-align: center;
 
 }
