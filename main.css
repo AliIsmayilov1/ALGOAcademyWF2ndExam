@@ -55,8 +55,21 @@ div#icon{
     height: 26px;
     width: 26px;
     position: relative;
+    margin-left: 8px;
+}
+div#icon > i{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 14px;
 }
 
+header > div#headnav{
+    display: flex;
+    align-items: center;
+}
 /* Header-end */
 
 /* Business-start */
