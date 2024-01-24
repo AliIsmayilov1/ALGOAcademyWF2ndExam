@@ -7,6 +7,7 @@
     font-family: MontIt;
     src: url(Montserrat-Italic-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: MontBold;
     src: url(static/Montserrat-Bold.ttf);
@@ -250,21 +251,23 @@ section#services>div#main {
 section#services>div#main>div#card>div#cardMain>h3 {
     text-align: center;
 }
+
 section#services>div#main>div#card>div#cardMain {
     padding: 32px;
     border: 1px solid #ebe8e8;
 }
+
 section#services>div#main>div#card>div#cardMain>div#price {
-text-align: center;
-font-family: MontBold;
-margin-top: 32px;
-text-align: center;
+    text-align: center;
+    font-family: MontBold;
+    margin-top: 32px;
+    text-align: center;
 }
 
-section#services>div#main>div#card>div#cardMain>ul  {
+section#services>div#main>div#card>div#cardMain>ul {
     list-style-type: square;
     padding: 0px 16px;
-    
+
 }
 
 
@@ -283,5 +286,106 @@ section#services>div#main>div#card>div#cardImg>img {
         flex-direction: column;
     }
 }
-    
+
+/* Services-end */
+
+/* Details-start */
+
+section#details {
+    background-color: aliceblue;
+    font-family: Mont;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "A B"
+        "C D"
+
+    ;
+}
+
+section#details>div#detail1 {
+    grid-area: A;
+}
+
+section#details>div#detail1>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+section#details>div#detail2 {
+    grid-area: B;
+    padding: 0px 16px;
+}
+
+section#details>div#detail2>h2 {
+    text-align: center;
+}
+
+
+section#details>div#detail2>div#detail2main>h3 {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+section#details>div#detail2>div#detail2main>h3>p:first-child {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 50%;
+
+}
+
+section#details>div#detail2>div#detail2main>h3:hover {
+    color: #14bf98;
+}
+
+section#details>div#detail2>div#detail2main>h3:hover>p:first-child {
+    border: 2px solid #14bf98;
+
+}
+
+
+section#details>div#detail3 {
+    grid-area: C;
+    padding: 0px 64px;
+}
+
+section#details>div#detail4 {
+    grid-area: D;
+    box-sizing: border-box;
+}
+
+section#details>div#detail4>img {
+    width: 100%;
+}
+
+section#details>div#detail3>div#detail3bar1 {
+    height: 25px;
+    background-color: #14bf98;
+}
+section#details>div#detail3>h5 {
+    margin: 8px 0px;
+}
+section#details>div#detail3>div#detail3bar2 {
+    height: 25px;
+    background-color: beige;
+}
+section#details>div#detail3>div#detail3bar2>div#detail3bar22 {
+    height: 25px;
+    background-color: #14bf98;
+    width: 76%;
+}
+section#details>div#detail3>div#detail3bar3 {
+    height: 25px;
+    background-color: beige;
+}
+section#details>div#detail3>div#detail3bar3>div#detail3bar33 {
+    height: 25px;
+    background-color: #14bf98;
+    width: 90%;
+}
+
 
