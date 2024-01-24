@@ -254,14 +254,17 @@ section#services>div#main>div#card>div#cardMain {
     padding: 32px;
     border: 1px solid #ebe8e8;
 }
-section#services>div#main>div#card>div#cardMain>p#price {
+section#services>div#main>div#card>div#cardMain>div#price {
 text-align: center;
 font-family: MontBold;
+margin-top: 32px;
+text-align: center;
 }
 
 section#services>div#main>div#card>div#cardMain>ul  {
     list-style-type: square;
-    lis
+    padding: 0px 16px;
+    
 }
 
 
@@ -274,3 +277,11 @@ section#services>div#main>div#card>div#cardImg>img {
     width: 100%;
     height: auto;
 }
+
+@media screen and (max-width:995px) {
+    section#services>div#main {
+        flex-direction: column;
+    }
+}
+    
+
