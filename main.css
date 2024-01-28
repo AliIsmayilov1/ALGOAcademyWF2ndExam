@@ -292,6 +292,7 @@ section#services>div#main>div#card>div#cardImg>img {
 /* Details-start */
 
 section#details {
+    padding-bottom: 64px;
     background-color: aliceblue;
     font-family: Mont;
     padding-top: 50px;
@@ -366,26 +367,103 @@ section#details>div#detail3>div#detail3bar1 {
     height: 25px;
     background-color: #14bf98;
 }
+
 section#details>div#detail3>h5 {
     margin: 8px 0px;
 }
+
 section#details>div#detail3>div#detail3bar2 {
     height: 25px;
     background-color: beige;
 }
+
 section#details>div#detail3>div#detail3bar2>div#detail3bar22 {
     height: 25px;
     background-color: #14bf98;
     width: 76%;
 }
+
 section#details>div#detail3>div#detail3bar3 {
     height: 25px;
     background-color: beige;
 }
+
 section#details>div#detail3>div#detail3bar3>div#detail3bar33 {
     height: 25px;
     background-color: #14bf98;
     width: 90%;
 }
+
+/* Details-end */
+
+/* CallMe-start */
+
+
+section#callMe {
+    background-color: #153e52;
+    padding: 96px 64px;
+    color: white;
+    font-family: Mont;
+    display: flex;
+}
+
+section#callMe>div#left {
+    flex: 1;
+}
+section#callMe>div#left>ul {
+    padding: 10px;
+    list-style-type: square;
+}
+
+
+section#callMe>div#right {  
+    flex: 1;
+}
+section#callMe>div#right>form {  
+    display: flex;
+    flex-direction: column;
+}
+section#callMe>div#right>form>input {  
+    background-color: #2a5d77;
+    margin-bottom: 16px;
+    height: 45px;
+    border: 1px solid #39728f;
+    border-radius: 8px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    padding: 0px 16px;
+}
+
+section#callMe>div#right>form>select {
+    background-color: #2a5d77;
+    color: white;
+    margin-bottom: 16px;
+    height: 45px;
+    border: 1px solid #39728f;
+    border-radius: 8px;
+}  
+section#callMe>div#right>div#callMeButton {  
+    background-color: #14bf98;
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+}
+section#callMe>div#right>div#callMeButton>a {
+    text-decoration: none;
+    color: white;
+}  
+section#callMe>div#right>div#callMeButton:hover {  
+    background-color: transparent;
+    border: 1px solid #14bf98;
+    
+}
+section#callMe>div#right>div#callMeButton:hover>a {  
+    color: #14bf98;
+
+}
+
+
 
 
