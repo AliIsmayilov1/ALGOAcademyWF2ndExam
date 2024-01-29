@@ -15,6 +15,7 @@
 
 body {
     margin: 0px;
+    background-color: aliceblue;
 }
 
 /* Header-start */
@@ -456,8 +457,9 @@ section#callMe>div#right>div#callMeButton {
     background-color: #14bf98;
     text-align: center;
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 4px;
     margin-top: 16px;
+    transition: 0.4s;
 }
 
 section#callMe>div#right>div#callMeButton>a {
@@ -468,7 +470,7 @@ section#callMe>div#right>div#callMeButton>a {
 section#callMe>div#right>div#callMeButton:hover {
     background-color: transparent;
     border: 1px solid #14bf98;
-
+    cursor: pointer;
 }
 
 section#callMe>div#right>div#callMeButton:hover>a {
@@ -481,4 +483,52 @@ section#callMe>div#right>div#callMeButton:hover>a {
         flex-direction: column;
     }
 
+}
+
+/* CallMe-end  */
+
+/* Projects-start */
+
+section#projects {
+    text-align: center;
+    font-family: Mont;
+    margin-top: 128px;
+}
+
+section#projects>div#top>div#buttons>a {
+    text-decoration: none;
+    background-color: #dde7ec;
+    color: #7b7e85;
+    display: inline-block;
+    padding: 8px;
+    font-family: MontBold;
+    margin: 16px 8px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+section#projects>div#top>div#buttons>a:hover {
+    background-color: #14bf98;
+    color: white;
+}
+
+section#projects>div#bottom {
+    display: flex;
+    padding: 16px 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+section#projects>div#bottom>div>img {
+    width: 100%;
+    transition: 0.4s;
+}
+
+section#projects>div#bottom>div {
+    width: 230px;
+    overflow: hidden;
+}
+section#projects>div#bottom>div>img:hover {
+    transform:scale(1.15) ;
 }
