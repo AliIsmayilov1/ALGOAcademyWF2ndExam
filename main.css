@@ -143,13 +143,12 @@ section#intro>div#introImg {
 
 section#intro>div#introImg img {
     width: 100%;
+    transition: 0.5s;
 }
 
-section#intro>div#introImg img:hover {
+section#intro>div#introImg>img:hover {
     transform: scale(1.15);
 }
-
-
 
 section#intro>div#introP>p {
     opacity: 0.8;
@@ -401,7 +400,7 @@ section#details>div#detail3>div#detail3bar3>div#detail3bar33 {
 
 section#callMe {
     background-color: #153e52;
-    padding: 96px 64px;
+    padding: 64px 32px;
     color: white;
     font-family: Mont;
     display: flex;
@@ -409,31 +408,39 @@ section#callMe {
 
 section#callMe>div#left {
     flex: 1;
+    line-height: 25px;
+    padding: 0px 32px;
 }
+
 section#callMe>div#left>ul {
     padding: 10px;
     list-style-type: square;
+    line-height: 32px;
 }
 
 
-section#callMe>div#right {  
+section#callMe>div#right {
     flex: 1;
 }
-section#callMe>div#right>form {  
+
+section#callMe>div#right>form {
     display: flex;
     flex-direction: column;
 }
-section#callMe>div#right>form>input {  
+
+section#callMe>div#right>form>input {
     background-color: #2a5d77;
     margin-bottom: 16px;
     height: 45px;
     border: 1px solid #39728f;
     border-radius: 8px;
     color: white;
+    padding: 0px 32px;
 }
-::placeholder{
+
+::placeholder {
     color: white;
-    padding: 0px 16px;
+
 }
 
 section#callMe>div#right>form>select {
@@ -443,27 +450,35 @@ section#callMe>div#right>form>select {
     height: 45px;
     border: 1px solid #39728f;
     border-radius: 8px;
-}  
-section#callMe>div#right>div#callMeButton {  
+}
+
+section#callMe>div#right>div#callMeButton {
     background-color: #14bf98;
     text-align: center;
     padding: 16px;
     border-radius: 8px;
+    margin-top: 16px;
 }
+
 section#callMe>div#right>div#callMeButton>a {
     text-decoration: none;
     color: white;
-}  
-section#callMe>div#right>div#callMeButton:hover {  
+}
+
+section#callMe>div#right>div#callMeButton:hover {
     background-color: transparent;
     border: 1px solid #14bf98;
-    
+
 }
-section#callMe>div#right>div#callMeButton:hover>a {  
+
+section#callMe>div#right>div#callMeButton:hover>a {
     color: #14bf98;
 
 }
 
+@media screen and (max-width:990px) {
+    section#callMe {
+        flex-direction: column;
+    }
 
-
-
+}
