@@ -118,8 +118,15 @@ section#Business>div#BusinessP>a {
     border-radius: 8px;
     width: 100px;
     text-align: center;
-
+    font-family: MontBold;
+    transition: 0.3s;
 }
+section#Business>div#BusinessP>a:hover {
+    background-color: transparent;
+    border: 1px solid #14bf98;
+    color: #14bf98;
+}
+
 
 /* Business-end */
 
@@ -554,6 +561,8 @@ section#about>div#left{
 }
 section#about>div#left>img{
     width: 100%;
+    min-width: 383px;
+    min-height: 283px;
 }
 
 section#about>div#right>ul{
@@ -573,6 +582,12 @@ section#about>div#right>div#progress>div{
 section#about>div#right>div#progress>div>h1{
     color: #14bf98;
     font-size:45px;
+    margin: 0px;
 }
+@media screen and (max-width:1095px) {
+    section#about{
+        flex-direction: column;
+    }
 
+}
 
