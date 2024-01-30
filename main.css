@@ -538,14 +538,41 @@ section#projects>div#bottom>div>img:hover {
 /* About-start */
 
 section#about{
-    padding-top: 40px;
+    padding: 60px 32px;
     display:flex;
+    align-items: center;
+    background-color: white;
     font-family: Mont;
 }
+section#about>div#right{
+    padding: 32px;
+    flex: 3;
+}
+section#about>div#left{
+    flex: 2;
+    padding: 0px 64px;
+}
+section#about>div#left>img{
+    width: 100%;
+}
+
+section#about>div#right>ul{
+    padding: 0px 14px;
+    list-style-type: square;
+}
+
 section#about>div#right>div#progress{
     display: flex;
+    justify-content: start;
 }
 section#about>div#right>div#progress>div{
     display: flex;
+    padding: 0px 16px;
+    align-items: center;
 }
+section#about>div#right>div#progress>div>h1{
+    color: #14bf98;
+    font-size:45px;
+}
+
 
