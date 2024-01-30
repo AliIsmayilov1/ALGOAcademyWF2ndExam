@@ -475,7 +475,6 @@ section#callMe>div#right>div#callMeButton:hover {
 
 section#callMe>div#right>div#callMeButton:hover>a {
     color: #14bf98;
-
 }
 
 @media screen and (max-width:990px) {
@@ -493,6 +492,7 @@ section#projects {
     text-align: center;
     font-family: Mont;
     margin-top: 128px;
+    padding-bottom: 80px;
 }
 
 section#projects>div#top>div#buttons>a {
@@ -532,3 +532,20 @@ section#projects>div#bottom>div {
 section#projects>div#bottom>div>img:hover {
     transform:scale(1.15) ;
 }
+/* Projects-end */
+
+
+/* About-start */
+
+section#about{
+    padding-top: 40px;
+    display:flex;
+    font-family: Mont;
+}
+section#about>div#right>div#progress{
+    display: flex;
+}
+section#about>div#right>div#progress>div{
+    display: flex;
+}
+
